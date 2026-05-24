@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/28201290/README.md)
 # Laboratorio 2: Navegación reactiva con filtrado y fusión de sensores en Webots
 
 Este repositorio contiene la solución correspondiente al Laboratorio 2 del curso **Robótica y Sistemas Autónomos** (ICI 4150) para el diseño e implementación de un controlador de navegación reactiva en Webots que utiliza fusión sensorial mediante Filtro de Kalman.
