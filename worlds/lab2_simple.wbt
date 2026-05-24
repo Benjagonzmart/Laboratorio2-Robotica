@@ -1,0 +1,52 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5375536766566582 0.578010527342013 0.6139542938971249 1.974628357849415
+  position -0.43764126857644553 -0.7076274759503701 2.5721949316540957
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+SolidBox {
+  translation 0 0.4 0.06
+  name "box(1)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.39 0 0.06
+  name "box(2)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.44 0 0.06
+  size 0.1 0.1 0.1
+}
+E-puck {
+  hidden position_0_0 24044.374239425328
+  hidden position_0_1 24079.716158776973
+  hidden linearVelocity_0 6.001866952338314e-09 -3.331897318048505e-09 9.382595465012856e-09
+  hidden angularVelocity_0 3.9392979853708913e-07 1.29175929839975e-07 1.46330345024756e-07
+  hidden translation_1 0 0.02599999999999964 0.02
+  hidden rotation_1 0 1 0 4.907254156229826
+  hidden linearVelocity_1 7.635296665363268e-09 -8.987256538227524e-09 9.78303034138676e-09
+  hidden angularVelocity_1 -1.9324762765040562 -0.515295144128868 0.001983295768919603
+  hidden translation_2 0 -0.025999999999999846 0.02
+  hidden rotation_2 0 1 0 2.550061664797936
+  hidden linearVelocity_2 5.667136213411565e-09 -1.6131139549058523e-09 8.594219558246419e-09
+  hidden angularVelocity_2 -1.932476233748319 -0.5152953019717039 0.0019832838963898067
+  translation -0.9631807024734729 0.9632364375501968 -3.529808088477589e-05
+  rotation 0.002798695691456631 -0.0013617841004484044 0.9999951564115152 1.8313856640953976
+  controller "lab2_controller"
+}

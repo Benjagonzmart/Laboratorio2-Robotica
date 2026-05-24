@@ -1,0 +1,135 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.4050735430643758 -0.20097972519785487 0.8919207222442295 3.9748531793789414
+  position 0.8249143157873733 1.1746730365926705 1.837626152148072
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+SolidBox {
+  translation -0.51 -0.42 0.06
+  name "box(19)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.09 -0.47 0.06
+  name "box(18)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.69 -0.47 0.06
+  name "box(8)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.54 -0.63 0.06
+  name "box(17)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.18 0.15 0.06
+  name "box(9)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.21 0.54 0.06
+  name "box(10)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.76 0.37 0.06
+  name "box(11)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.22 0.23 0.06
+  name "box(12)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.09 -0.21 0.06
+  name "box(13)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.43 0.47 0.06
+  name "box(14)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.51 0 0.06
+  name "box(15)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.18 0.52 0.06
+  name "box(16)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.66 0.18 0.06
+  name "box(7)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.28 -0.37 0.06
+  name "box(4)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.57 -0.21 0.06
+  name "box(5)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.39 0.4 0.06
+  name "box(6)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0 0.4 0.06
+  name "box(1)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.39 0 0.06
+  name "box(2)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation -0.18 -0.01 0.06
+  name "box(3)"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.44 0 0.06
+  size 0.1 0.1 0.1
+}
+E-puck {
+  hidden position_0_0 26205.937450216963
+  hidden position_0_1 26072.519122617887
+  hidden linearVelocity_0 -0.012454211326150369 0.015647094549253303 4.190584537395823e-06
+  hidden angularVelocity_0 -0.0001896433098462271 0.00034276520966345335 1.4069689681743114
+  hidden rotation_1 0 1 0 5.054719278087434
+  hidden linearVelocity_1 0.010369631439493593 -0.01315619501576689 1.4318260905810073e-05
+  hidden angularVelocity_1 0.7832395717943034 0.6222191695128199 1.40966684088135
+  hidden rotation_2 0 -1 0 2.6999021773971283
+  hidden linearVelocity_2 -0.03518115659042474 0.04455252517450603 -6.076234471041921e-06
+  hidden angularVelocity_2 -2.3572024725263145 -1.8563687366606 1.4361553768585567
+  translation 0.08988241740872852 0.15204808152166577 -8.87063724772999e-05
+  rotation 0.00019044130438556205 0.0004198471605662158 0.9999998937302301 2.2646997456212588
+  controller "lab2_controller"
+}
